@@ -4,13 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web-APIs Coding Quiz</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
+    <nav>
+        <div>
+            <section>High Score</section>
+            <section>Timer</section>
+        </div>
+    </nav>
+    
     <div>
-        <h1>Coding Quiz Challenge</h1>
+        <div class=>
+            <h1>Coding Quiz Challenge</h1>
+            <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score and subtract 10 seconds from the timer.</p>
+            <button id="start">Start Quiz</button>
+        </div>
+
+        <div id="all-questions" class="hidden">
+            <h2 id="questions"></h2>
+            <div id="answers"></div>
+        </div>
     </div>
+
     <script src="./js/script.js"></script>
 </body>
 </html>
